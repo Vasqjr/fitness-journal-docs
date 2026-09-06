@@ -10,7 +10,7 @@ A full-stack fitness tracking application inspired by Strengthlog. Log workouts,
 
 | Layer | Repository | Stack |
 |-------|-----------|-------|
-| Frontend | [fitness-journal-frontend](https://github.com/Vasqjr/fitness-journal-frontend) | React, TypeScript, Zustand, Axios |
+| Frontend | [fitness-journal-frontend](https://github.com/Vasqjr/fitness-journal-frontend) | React, TypeScript, Axios |
 | Backend | [fitness-journal-backend](https://github.com/Vasqjr/fitness-journal-backend) | Spring Boot, Spring Security, JWT, PostgreSQL |
 
 ---
@@ -18,7 +18,7 @@ A full-stack fitness tracking application inspired by Strengthlog. Log workouts,
 ## Architecture
 
 ```
-React Frontend (Pages · Components · Zustand/Context · Axios)
+React Frontend (Pages · Components · Axios)
         |
         | REST / JSON
         ↓
@@ -56,7 +56,6 @@ Local Development
 
 ### Frontend
 - React + TypeScript
-- Zustand (state management)
 - Axios (HTTP client)
 - CSS Modules / SCSS
 
@@ -106,8 +105,8 @@ npm run dev
 - [x] Spring Boot project structure
 - [x] Database schema + JPA entities
 - [x] JWT authentication
-- [ ] Workout + Exercise CRUD endpoints
-- [ ] React frontend — auth flow
-- [ ] React frontend — workout logging UI
+- [x] Workout + Exercise CRUD endpoints
+- [x] React frontend — auth flow
+- [x] React frontend — workout logging UI
 - [ ] Progress visualization / charts
 - [ ] AWS deployment
